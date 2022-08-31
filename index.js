@@ -30,6 +30,6 @@ function savePassword() {
     saveButton.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(`Password saya: ${localStorage.setItem}`))
     saveButton.setAttribute('download', 'MyPasswordGeneratorLOG.txt')
     setTimeout (() => {
-        alert('Password has been saved')
+        alert('Password has been saved in your notepad')
     }, 700)
 }
